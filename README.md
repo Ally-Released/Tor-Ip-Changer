@@ -6,7 +6,6 @@
 
 🔗 **Check out my YouTube channel for more awesome projects:** [**My Channel**](https://www.youtube.com/@Ally-released) ❤️
 
-![Tor IP Changer](https://upload.wikimedia.org/wikipedia/commons/5/5c/Tor_project_logo_hq.png)
 
 ---
 
