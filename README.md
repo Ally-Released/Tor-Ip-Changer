@@ -4,9 +4,9 @@
 
 **A fully automated Python script that changes your IP using Tor at custom intervals. Works on Windows without requiring admin permissions! 🔥**  
 
-(https://github.com/user-attachments/assets/d081d0ab-e0f8-45e0-9645-85865884278f)](https://www.youtube.com/@Ally-released) **Check out my YouTube channel for more awesome projects:**  ❤️
+🔗 **Check out my YouTube channel for more awesome projects:** [**My Channel**](https://www.youtube.com/@Ally-released) ❤️
 
-
+![Tor IP Changer](https://upload.wikimedia.org/wikipedia/commons/5/5c/Tor_project_logo_hq.png)
 
 ---
 
