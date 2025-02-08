@@ -1,7 +1,12 @@
 # 🔥 Tor IP Changer – Python Script
 
-**A fully automated Python script that changes your IP using Tor at custom intervals. Works on Windows without requiring admin permissions! 🚀**  
+### Hey there, awesome people! 👋 Welcome to my project! I’m **Ally**, and I made this for all of you who love tech, privacy, and cool Python scripts! 🚀
 
+**A fully automated Python script that changes your IP using Tor at custom intervals. Works on Windows without requiring admin permissions! 🔥**  
+
+🔗 **Check out my YouTube channel for more awesome projects:** [![YouTube](https://upload.wikimedia.org/wikipedia/commons/5/5c/YouTube_social_red_circle_(2017).svg)](https://www.youtube.com/@Ally-released) ❤️
+
+![Tor IP Changer](https://upload.wikimedia.org/wikipedia/commons/5/5c/Tor_project_logo_hq.png)
 
 ---
 
@@ -126,27 +131,6 @@ def start_tor():
 
 ---
 
-### **🔹 3️⃣ Changing Tor Identity & Displaying New IP**
-```python
-def change_tor_identity():
-    """Request a new Tor identity and display new IP."""
-    try:
-        with Controller.from_port(port=TOR_CONTROL_PORT) as controller:
-            controller.authenticate(password=TOR_PASSWORD)
-            controller.signal(Signal.NEWNYM)
-            time.sleep(3)  # Wait for a new identity to be assigned
-            new_ip = get_current_ip()
-            print(f"{SUCCESS} New Tor IP: {colorama.Fore.MAGENTA}{new_ip}{RESET}")
-    except Exception as e:
-        print(f"{ERROR} Error changing Tor identity: {e}")
-```
-📢 **Explanation:**  
-- This **sends a command to Tor** to get a **new IP address**.  
-- Instead of **opening Firefox**, it **fetches the new IP** and prints it in CMD.  
-- The new IP is **color-coded in MAGENTA** for easy visibility.  
-
----
-
 ## 📚 Technologies Used
 - **Python** 🐍  
 - **Tor** 🕵️‍♂️  
@@ -176,4 +160,6 @@ def change_tor_identity():
 ## 📩 Contact & Contributions
 Got suggestions or improvements? Feel free to **fork** this project and submit a **pull request**!  
 💬 **Need help?** Open an issue on GitHub!  
+
+🔗 **Subscribe for more cool projects!** [**My Channel**](https://www.youtube.com/@Ally-released) ❤️
 
